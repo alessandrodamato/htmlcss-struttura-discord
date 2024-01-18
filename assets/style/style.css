@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+body{
+  font-size: 1.5em;
+  font-family: Arial, Helvetica, sans-serif
+}
+
 .container{
   max-width: 1260px;
   margin: 0 auto;
@@ -33,7 +38,7 @@ header .header-bar{
   background-color: rgb(217, 165, 33);
 }
 
-header .header-bar .logo{
+header .header-bar .header-logo{
   width: 20%;
   padding: 10px;
 }
@@ -52,12 +57,13 @@ header .header-bar .login{
 header nav ul{
   list-style: none;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 header nav ul li a{
   text-decoration: none;
   color: black;
+  padding: 0 5px;
 }
 
 /* jumbotron */
@@ -68,7 +74,7 @@ section.jumbotron{
 }
 
 section.jumbotron div.downloads{
-  width: 55%;
+  width: 900px;
   height: 400px;
   background-color: rgb(237, 130, 237);
 }
@@ -103,31 +109,54 @@ main section .main-text{
 
 main section .main-big{
   width: 100%;
-  height: 800px;
+  height: 900px;
   background-color: rgb(34, 140, 34);
 }
 
 /* footer */
 
-footer .footer-top{
+footer section {
   width: 100%;
   height: 100%;
   background-color: rgb(34, 38, 41);
 }
 
-footer section div.container{
+footer .footer-top{
+  border-bottom: 2px solid rgb(125, 126, 128);
+}
+
+footer section div.ftop-container{
   display: flex;
   padding: 10px 0 60px;
 }
 
+footer section div.fbottom-container{
+  display: flex;
+  padding-top: 40px;
+}
+
 footer section .footer-big{
   flex-grow: 2;
-  height: 500px;
+  height: 600px;
   background-color: rgb(240, 127, 127);
 }
 
 footer section .footer-small{
   flex-grow: 1;
-  height: 500px;
+  height: 600px;
   background-color: rgb(32, 179, 171);
+}
+
+footer section .footer-end{
+  width: 100%;
+  height: 100px;
+  background-color: rgb(128, 255, 212);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer section .footer-logo, footer section .footer-button{
+  background-color: rgb(255, 181, 192);
+  padding: 7px 10px;
 }
