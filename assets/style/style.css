@@ -19,6 +19,7 @@ header{
   height: 80px;
   background-color: rgb(172, 215, 230);
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
 }
 
@@ -55,3 +56,31 @@ header nav ul li a{
   color: black;
 }
 
+/* jumbotron */
+
+section.jumbotron{
+  background-color: rgb(0, 0, 140);
+  padding: 70px 0;
+}
+
+section.jumbotron div.downloads{
+  width: 1000px;
+  height: 400px;
+  background-color: rgb(237, 130, 237);
+}
+
+/* main */
+
+main{
+  padding: 70px 0;
+}
+
+main section .main-img{
+  width: 60%;
+  background-color: rgb(31, 143, 255);
+}
+
+main section .main-text{
+  width: 40%;
+  background-color: rgb(255, 192, 203);
+}
