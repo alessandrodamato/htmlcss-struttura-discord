@@ -60,7 +60,7 @@ header nav ul li a{
 
 section.jumbotron{
   background-color: rgb(0, 0, 140);
-  padding: 70px 0;
+  padding: 60px 0;
 }
 
 section.jumbotron div.downloads{
@@ -72,15 +72,21 @@ section.jumbotron div.downloads{
 /* main */
 
 main{
-  padding: 70px 0;
+  padding: 60px 0;
+}
+
+main .main-white{
+  display: flex;
 }
 
 main section .main-img{
   width: 60%;
+  height: 500px;
   background-color: rgb(31, 143, 255);
 }
 
 main section .main-text{
   width: 40%;
+  height: 500px;
   background-color: rgb(255, 192, 203);
 }
